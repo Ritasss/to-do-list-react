@@ -1,0 +1,42 @@
+.tasks-item-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 16px;
+
+    input[type=checkbox] {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        box-shadow: inset 0 0 0 2px #bebebe;
+
+        &:checked {
+            background-color: transparent;
+        }
+    }
+
+    .item-name {
+        text-align: left;
+        line-height: 20px;
+        margin-left: 10px;
+        flex: auto;
+    }
+
+    .task-del-btn{
+        background-color: #f89999;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        
+        &:hover {
+            background-color: #f55656;
+        }
+    }
+} 
